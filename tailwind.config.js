@@ -11,6 +11,12 @@ module.exports = {
         md: "0 4px 8px var(--tw-shadow-color)",
         lg: "0 8px 16px var(--tw-shadow-color)",
       },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+      },
+      fontWeight: {
+        bold: 700,
+      },
     },
   },
   plugins: [
