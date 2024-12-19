@@ -1,8 +1,8 @@
-const plugin = require("tailwindcss/plugin");
-module.exports = {
+import plugin from "tailwindcss/plugin";
+export default {
   //use jit
   mode: "jit",
-  purge: ["./index.html"],
+  content: ["./index.html"],
   theme: {
     extend: {
       textShadow: {
